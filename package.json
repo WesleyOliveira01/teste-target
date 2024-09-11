@@ -1,0 +1,19 @@
+{
+  "name": "teste-target",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "json-server": "json-server --watch dados.json --port 3000"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "json-server": "^1.0.0-beta.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
